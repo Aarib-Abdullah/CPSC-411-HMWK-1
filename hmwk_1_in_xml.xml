@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:columnCount="5"
+    android:rowCount="11"
+    >
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="0"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+<!--    beggining of black region-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="0"
+        android:layout_column="1"
+        android:text="Rules void hello1(int hour)"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:layout_columnSpan="4"
+        android:layout_columnWeight="1"
+        />
+
+<!--    end of black region-->
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="1"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="2"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+    <!--    begining of Row 2 region -->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_row="1"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="0"
+        android:text="properties"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_row="1"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:text="name"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="1"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:text="Day Hour Classification"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    end of Row 2 region-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="2"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 3-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:text="category"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="580dp"
+        android:layout_row="2"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="0"
+        android:text="Day and Time"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    end of row 3-->
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="3"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="4"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 4-->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_rowSpan="3"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="0"
+        android:background="#03A9F4"
+
+        android:foregroundTint="#2B2B2B"
+
+        android:text="Rule"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:text="C1"
+        android:textSize="16pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_column="4"
+        android:layout_row="3"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="A1"
+        android:textSize="16pt"
+        android:layout_width="570dp"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        android:textStyle="bold"
+        />
+
+    <!--    end of row 4-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 5-->
+
+    <TextView
+        android:layout_width="536dp"
+        android:layout_row="4"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:text="min &lt;= hour &amp;&amp; hour &lt;= max"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="4"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:text="System.out.println(greeting+,World)"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:background="#03A9F4"
+        />
+    <!--    end of row 5-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="5"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="6"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 6-->
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="5"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:text="int min"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        android:textSize="16pt" />
+    <TextView
+        android:layout_column="3"
+        android:layout_row="5"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="int max"
+        android:textSize="16pt"
+        android:layout_width="268dp"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        />
+    <TextView
+        android:layout_column="4"
+        android:layout_row="5"
+        android:layout_rowWeight="0"
+
+
+        android:layout_columnWeight="0"
+        android:text="String greeting"
+        android:textSize="16pt"
+        android:layout_width="570dp"
+        android:textAlignment="center"
+        android:background="#03A9F4"
+        />
+
+    <!--    end of row 6-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="6"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="7"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 7-->
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="6"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="Rule"
+        android:textSize="16pt"
+        android:layout_width="200dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="6"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="From"
+        android:textAlignment="viewStart"
+        android:textSize="16pt"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="6"
+        android:layout_rowWeight="0"
+        android:layout_column="3"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="To"
+        android:textAlignment="viewStart"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="6"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:background="#2B2B2B"
+        android:text="Greeting"
+        android:textAlignment="viewStart"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <!--    end of row 7-->
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="8"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 8-->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:layout_column="1"
+        android:layout_columnWeight="0"
+        android:text="R10"
+
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:layout_column="3"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="11"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="7"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:background="#FFA500"
+        android:text="Good Morning"
+        android:textAlignment="viewStart"
+        android:textSize="16pt" />
+
+
+    <!--    end of row 8-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="8"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="9"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 9-->
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="8"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="R20"
+        android:textSize="16pt"
+        android:layout_width="200dp"
+
+        />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="8"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="12"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="8"
+        android:layout_rowWeight="0"
+        android:layout_column="3"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="17"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="8"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:background="#FFA500"
+        android:text="Good Afternoon"
+        android:textAlignment="viewStart"
+        android:textSize="16pt" />
+
+    <!--    end of row 9-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="9"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="10"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 10 -->
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="9"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="R30"
+        android:textSize="16pt"
+        android:layout_width="200dp"
+
+        />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="9"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="18"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="9"
+        android:layout_rowWeight="0"
+        android:layout_column="3"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="21"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="9"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:background="#FFA500"
+        android:text="Good Evening"
+        android:textAlignment="viewStart"
+        android:textSize="16pt" />
+
+    <!--    end of row 10-->
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_row="10"
+        android:layout_rowWeight="0"
+        android:layout_column="0"
+        android:layout_columnWeight="0"
+        android:background="#A6A6A6"
+        android:text="11"
+        android:textAlignment="center"
+        android:textSize="16pt" />
+
+    <!--    begining of row 11 -->
+
+    <TextView
+        android:layout_column="1"
+        android:layout_row="10"
+        android:layout_rowWeight="0"
+        android:layout_columnWeight="0"
+        android:text="R40"
+        android:textSize="16pt"
+        android:layout_width="200dp"
+
+        />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="10"
+        android:layout_rowWeight="0"
+        android:layout_column="2"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="22"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_row="10"
+        android:layout_rowWeight="0"
+        android:layout_column="3"
+        android:layout_columnWeight="0"
+        android:background="#FFFF00"
+        android:text="23"
+        android:textAlignment="viewEnd"
+        android:textSize="16pt" />
+
+    <TextView
+        android:layout_width="570dp"
+        android:layout_row="10"
+        android:layout_rowWeight="0"
+        android:layout_column="4"
+        android:layout_columnWeight="0"
+        android:background="#FFA500"
+        android:text="Good Night"
+        android:textAlignment="viewStart"
+        android:textSize="16pt" />
+
+    <!--    end of row 11-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_row="1"-->
+<!--        android:layout_rowWeight="0"-->
+<!--        android:layout_column="2"-->
+<!--        android:layout_columnWeight="0"-->
+<!--        android:text="C1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="16pt" />-->
+
+    <!--        <HorizontalScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_row="11"-->
+<!--        android:layout_column="1">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical" />-->
+<!--    </HorizontalScrollView>-->
+
+    <!--    <HorizontalScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_row="11"-->
+<!--        android:layout_column="1">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical" />-->
+<!--    </HorizontalScrollView>-->
+
+</GridLayout>
+</HorizontalScrollView>
