@@ -8,9 +8,8 @@ Assignment Name: HW Assignment #1
 
 Due Date: 10/06/2019
 
+MUST READ:
 
 The Java file executes both its implemtation of the UI
-
 and
-
 the XML file's implementation of the UI (which is commented out currently).
